@@ -1,0 +1,279 @@
+body{
+	background-color: #19181a;
+	color: white;
+	text-align: center;
+  align-items: center;
+	font-family: "Nunito", sans-serif;
+	overflow-x: hidden;
+}
+/* Estilo de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px;
+}
+/* Estilo del riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background: #464646;
+    border-radius: 6px;
+}
+/* Estilo del mango de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+/* Estilo del mango al pasar el ratón por encima */
+::-webkit-scrollbar-thumb:hover {
+    background: #878787;
+}
+/*********************************************************************************************/
+#imagen_logo{
+	border-radius: 20em;
+	width: 25em;
+	height: 25em;
+}
+/*********************************************************************************************/
+#textopt1{
+	font-family: "Nunito", sans-serif;
+	color: coral;
+	font-weight: bold;
+	margin-top: -0.2em;
+	font-size: 2.5rem;
+}
+#textopt2{
+	font-family: "Nunito", sans-serif;
+	color: coral;
+	font-weight: bold;
+	margin-top: -1em;
+	font-size: 2.5rem;
+}
+/*********************************************************************************************/
+#botones{
+	margin-top: -0.5em;
+	font-family: "Nunito", sans-serif;
+	text-decoration:none;
+	color: white;
+	font-size: 2rem;
+}
+#boton1{
+  background-color: coral;
+    color: whitesmoke;
+    padding: 5px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+#boton2{
+  background-color: salmon;
+    color: whitesmoke;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+#boton1:hover,
+#boton2:hover{
+	color: #19181a;
+}
+/*********************************************************************************************/
+#interacciones1{
+	font-size: 1.5rem;
+	padding-right: 44.5em;
+	font-weight: bold;
+}
+#interacciones2{
+	margin-top: -1em;
+	font-size: 1.2rem;
+	padding-right: 56.5em;
+	font-weight: normal;
+}
+#i_interacciones2{
+	margin-top: -1em;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+#imagen_interacciones{
+	margin-top: -0.5em;
+	border-radius: 15px;
+}
+/*********************************************************************************************/
+#divertido1{
+	font-weight: bold;
+	margin-top: -20.6em;
+	font-size: 1.5rem;
+}
+#divertido2{
+	font-weight: normal;
+	margin-top: -1em;
+	font-size: 1.2rem;
+}
+#divertido3{
+	margin-top: -1em;
+}
+#imagen_diversion{
+	margin-top: -0.5em;
+	border-radius: 15px;
+	width: 470px;
+}
+/*********************************************************************************************/
+#codigo1{
+	font-weight: bold;
+	margin-top: -20.7em;
+	padding-left: 45em;
+	font-size: 1.5rem;
+}
+#codigo2{
+	font-weight: normal;
+	margin-top: -1em;
+	font-size: 1.2rem;
+}
+#codigo3,
+#codigo4{
+	margin-top: -1em;
+}
+#imagen_codigo{
+	margin-top: -0.5em;
+	border-radius: 15px;
+	width: 512px;
+	height: 340px;
+}
+/*********************************************************************************************/
+#rectanguloxd {
+    width: 100%;
+    height: 100px;
+    background-color: #26262a;
+}
+
+#texto_del_rectangulo {
+    font-weight: bold;
+    color: salmon;
+    font-size: 3rem;
+   transition: 0.3s;
+   cursor: pointer;
+}
+#texto_del_rectangulo:hover{
+		color: goldenrod;
+}
+/*********************************************************************************************/
+#ayudas{
+	font-weight: bold;
+	font-size: 2rem;
+	align-items: center;
+}
+#linea1{
+	margin-top: -1em;
+	border: 1px solid #464646;
+}
+#tyc{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+#pdp{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+#equipo{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+#tyc:hover, #pdp:hover,#equipo:hover{
+	color: dodgerblue;
+	text-decoration: underline;
+}
+
+/*********************************************************************************************/
+@media screen and (max-width: 1580px){ /*Codigo para pantallas mas pequeñas |NO MODIFICAR|*/ 
+	#imagen_logo{
+	  width: 23em;
+	height: 23em;
+	}
+  #boton1{
+    padding: 5px 85px;
+  }
+  #interacciones1{ /*Interacciones ajustadas*/
+	font-size: 1.5rem;
+	padding-right: 0em;
+	font-weight: bold;
+}
+#interacciones2{
+	margin-top: -1em;
+	font-size: 1.2rem;
+	padding-right: 0em;
+	font-weight: normal;
+}
+#i_interacciones2{
+	margin-top: -1em;
+	font-size: 1.2rem;
+	font-weight: normal;
+
+}
+#imagen_interacciones{
+	margin-top: -0.5em;
+	border-radius: 15px;
+	width: 350px;
+	height: 350px;
+}
+/*********************************************************************************************/
+#divertido1{ /*Divertido ajustado*/
+	font-weight: bold;
+	margin-top: 0em;
+	font-size: 1.5rem;
+	padding-left: 0em;
+}
+  #imagen_diversion{
+    width: 350px;
+	height: 350px;
+  }
+/*********************************************************************************************/
+#codigo1{ /*Codigo ajustado*/
+	font-weight: bold;
+	margin-top: 0em;
+	padding-left: 0em;
+	font-size: 1.5rem;
+}
+#codigo2{
+	font-weight: normal;
+	margin-top: -1em;
+	font-size: 1.2rem;
+}
+#codigo3,
+#codigo4{
+	margin-top: -1em;
+}
+#imagen_codigo{
+	margin-top: -0.5em;
+	border-radius: 15px;
+	width: 350px;
+	height: 350px;
+}
+/*********************************************************************************************/
+#texto_del_rectangulo{
+	font-size: 2rem;
+}
+}/*cierre*/
